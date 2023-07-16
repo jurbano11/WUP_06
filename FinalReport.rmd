@@ -50,6 +50,9 @@ barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
 
+The white race is more in favor of capital punishment than the black race and the other races too. The black race is more oppose to capital punishment than the white race and the others. The blue bar being the in favor bar, while the beige color being opposed to capital punishment.
+
+
 ## Now with The Most data (fewer variables gives more data points)
 
 
