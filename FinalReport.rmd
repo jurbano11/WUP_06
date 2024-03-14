@@ -63,9 +63,13 @@ This graph shows that the white race is more in favor to cappun than both the bl
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~race + cappun,data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
-
+Both these tables show the number in how each race is in favor or opposed to cappun. Showing how the white race is more in favor of cappun than the black and other race with a 65% in favor and only a 35% in opposition. The black race shows the opposite with 42% in favor and 57% in opposition. "Other" race had a middleground with 55% in favor and 44% in opposition. 
 
 
 ## Inferential Results
