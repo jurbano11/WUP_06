@@ -84,6 +84,19 @@ fisher.test(table1)
 
 This test is not showing the full results and can't be fully trusted, therefore it will be added to a FisherXY test. 
 
+````{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+This test is not showing the full results and can't be fully trusted, therefore it will be added to a FisherXY test. 
+
+
+
+
+
+Thanks to the FisherXY test, we were able to see that all races are different from each other with all races getting different levels for differences between each other
 
 
 
@@ -93,3 +106,5 @@ Thanks to the FisherXY test, we were able to see that all races are different fr
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Overall the results in both branches seemed to be similar however there was a difference in numbers between the master branch and the number 2 branch. Then running the FisherXY test on the master branch included people of all race. In the master branch it seemed like everyone held different opinions byut on branch 2 it wasnt like that as much 
